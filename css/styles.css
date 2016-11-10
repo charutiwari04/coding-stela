@@ -1,0 +1,141 @@
+body{
+	width: 100%;
+	height: 675px;
+	font-family: 'Open Sans', sans-serif;
+}
+header, footer{
+	color: white;
+}
+h1{
+	font-family: Playfair;
+	text-align: center;
+	font-size: 2.3em;
+}
+h4{
+	text-align: center;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+.left, .right{
+	background-color: black;
+	height: 675px;
+}
+.main{
+	position: relative;
+	display: block;
+	background-image: url("https://s15.postimg.org/emz5tyt7f/bg_img.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 675px;
+	padding: 0;
+	margin: 0;
+}
+main{
+	margin: 10px;
+	padding: 0 40px 0 40px;
+	display: flex;
+}
+.layer{
+	position: absolute;
+	width: 100%;
+	height: 410px;
+	background-color: #a18b80;
+	opacity: 0.8;
+	top: 265px;
+}
+.layer-middle{
+	position: absolute;
+	width: 100%;
+	height: 410px;
+	top: 265px;
+}
+.mid-side-1, .mid-side-2{
+	width: 27%;
+	height: 210px;
+	background: white;
+	text-align: center;
+}
+.mid-middle{
+	width: 36%;
+	height: 210px;
+	background: white;
+	margin: 0 10px 0 10px;
+}
+td{
+	text-align: center;
+	padding: 12px;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+th{
+	text-align: center;
+	padding: 12px;
+	font-size: 1em;
+	font-weight: bold;
+}
+table{
+	margin: 10 0 10px 0;
+	text-shadow: 1px 1px #c0dffa;
+}
+#inquiry, #submit-btn{
+	background: black;
+	color: white;
+	font-size: 0.7em;
+	padding: 10px 20px 10px 20px;
+	border: 0;
+}
+footer{
+	text-align: center;
+	font-size: 0.7em;
+}
+form{
+	padding-top: 20px;
+	margin: auto;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center;
+}
+input{
+	width: 80%;
+}
+#thank{
+	vertical-align: middle;
+	line-height: 210px;
+	background: black;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+}
+@media (max-width: 1100px){
+main{
+	margin: 10px;
+	padding: 0 10px 0 10px;
+	display: flex;
+}
+.mid-side-1{
+	width: 33%;
+}
+.mid-middle{
+	width: 33%;
+}
+.mid-side-2{
+	width: 33%;
+}
+td{
+	font-size: 0.5em;
+}
+th{
+	font-size: 0.6em;
+}
+#inquiry, #submit-btn{
+	font-size: 0.7em;
+	padding: 5px 10px 5px 10px;
+}
+#thank{
+	padding: 5px 10px 5px 10px;
+	font-size: 0.4em;
+}
+footer{
+	font-size: 0.5em;
+}
+}
